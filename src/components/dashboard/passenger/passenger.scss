@@ -1,12 +1,31 @@
 .masthead {
   width: 100%;
-  height: 40vh;
-  padding: 6vh 0 !important;
+  min-height: 30vh;
+  padding: 1vh 0 !important;
   background-image: url('../../../assets/background.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .caption{
   margin-top: 1vh;
   color: white;
   font-size: 1.5rem
+}
+
+.ui.container{
+  padding: 5vh 0;
+  width: 60%;
+  text-align: left;
+  label{
+    display: block;
+    margin: 0.3rem 0;
+  }
+  input, select, textarea{
+    display: block;
+    margin: 0 auto 1rem auto !important;
+  }
+
+
 }

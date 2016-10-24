@@ -4,26 +4,42 @@
      <img class="ui centered small rounded image middle aligned" :src="passIcon">
      <div class="caption middle aligned">Fill the form to get your next ride!</div>
    </div>
-
-   <div class="ui container">
-     <span>Your Name:</span>
-     <input type="text">
-     <span>Your Destination</span>
-
-     <span>Where's your destination？</span>
-     <select>
-       <option>Ferry</option>
-       <option>Airport</option>
-     </select>
-
-     <span>Your address of departure</span>
-     <input type="text" placeholder="What's your address?">
-
-     <span>How many people in your party? </span>
-     <input type="number">
-
-     <span>Any comment ?</span>
-     <textarea placeholder="Tell us what else you need ? "></textarea>
-   </div>
  </div>
+
+  <div id="pas-form">
+    <div class="ui container">
+      <form class="ui form">
+        <label class="field">Your Name:</label>
+        <input id='pas-name' type="text">
+
+
+        <label class="field">Your Phone Number:</label>
+        <input id="pas-number" type="text">
+
+        <label class="field">Your Email Address:</label>
+        <input id="pas-email" type="email">
+
+        <label class="field">When do you plan to leave?</label>
+        <date-picker :option="option"></date-picker>
+
+        <label class="field">Your address of departure</label>
+        <input type="text" placeholder="What's your address?">
+
+
+        <label class="field">Where's your destination？</label>
+        <select>
+          <option>Ferry</option>
+          <option>Airport</option>
+        </select>
+
+        <label class="field">How many people in your group? </label>
+        <input type="number">
+
+        <label class="field">Any comment ?</label>
+        <textarea placeholder="Tell us what else you need ? "></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
 </div>

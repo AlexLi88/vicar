@@ -25,7 +25,9 @@
     "vue-resource": "^0.9.3",
     "vue-router": "^0.7.13",
     "vue-validator": "^2.1.5",
-    "semantic-ui": "^2.2.4"
+    "semantic-ui": "^2.2.4",
+    "vue-datetimepicker": "^0.0.3",
+    "moment": "^2.15.2"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

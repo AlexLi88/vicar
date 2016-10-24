@@ -13,19 +13,18 @@
   color: white;
   font-size: 1.5rem
 }
-
-.ui.container{
-  padding: 5vh 0;
-  width: 60%;
-  text-align: left;
-  label{
-    display: block;
-    margin: 0.3rem 0;
-  }
-  input, select, textarea{
-    display: block;
-    margin: 0 auto 1rem auto !important;
-  }
-
-
+#pas-form{
+    .ui.container{
+      padding: 5vh 0;
+      width: 60%;
+      text-align: left;
+      label{
+        display: block;
+        margin: 0.3rem 0 !important;
+      }
+      input, select, textarea{
+        display: block;
+        margin: 0 auto 1rem auto !important;
+      }
+    }
 }

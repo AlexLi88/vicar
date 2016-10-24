@@ -1,0 +1,10 @@
+<div class="ui left fixed inverted vertical menu" id="sidemenu">
+  <div class="item" id="caption">
+    <img class="ui centered tiny circular image" :src="user.picture">
+    <div class="username-center">{{user.name}}</div>
+  </div>
+
+  <a class="item" :class="selected == 'pass' ? 'active' : ''" v-link="{path: '/app/passenger'}" @click="selected = 'pass'">Passenger</a>
+  <a class="item" :class="selected == 'driver' ? 'active' : ''" v-link="{path: '/app/driver'}" @click="selected = 'driver'">Driver</a>
+  <a class="item" @click="logout()">Log Out</a>
+</div>

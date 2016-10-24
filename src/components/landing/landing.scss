@@ -1,0 +1,83 @@
+.cover {
+  background-color: rgba(55,72,79,0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.landing_container{
+  width: 100%;
+  height: 100vh;
+  padding: 1%;
+  .leftColumn{
+    height: 100%;
+    float: left;
+    background-color: transparent;
+    width: 50%;
+    position: relative;
+
+    .left-container{
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+      .left-desc{
+        color: #BABABA;
+        font-weight: 300;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        line-height: 29px;
+        max-width: 320px;
+      }
+    }
+  }
+  .rightColumn{
+    height: 100%;
+    float: left;
+    background-color: transparent;
+    width: 50%;
+    position: relative;
+
+    .right-container{
+      position: relative;
+      top: 50%;
+      transform:  translateY(-50%);
+      text-align: center;
+    }
+    .right-desc{
+      color: #BABABA;
+      font-weight: 300;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+      line-height: 29px;
+      max-width: 320px;
+    }
+  }
+}
+
+
+
+.video-hero-module {
+  border-right: none;
+  border-left: none;
+  position: relative;
+  height: 100vh;
+}
+.video-container {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+.video-container video.fillWidth {
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}

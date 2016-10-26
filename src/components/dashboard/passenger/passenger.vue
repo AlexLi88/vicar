@@ -12,14 +12,17 @@
                 format: 'YYYY-MM-DD HH:mm',
                 placeholder: 'when are you leaving?',
                 inputStyle: {
+                  'font-family': "Lato,'Helvetica Neue',Arial,Helvetica,sans-serif",
                   'display': 'inline-block',
-                  'padding': '6px',
-                  'line-height': '22px',
-                  'font-size': '16px',
-                  'border': '2px solid #fff',
-                  'box-shadow': '0 1px 3px 0 rgba(0, 0, 0, 0.2)',
-                  'border-radius': '2px',
-                  'color': '#5F5F5F'
+                  'padding': '.67861429em 1em;',
+                  'font-size': '1em',
+                  'background': '#FFF',
+                  'border': '1px solid rgba(34,36,38,.15)',
+                  'color': 'rgba(0,0,0,.87)',
+                  'border-radius': '.28571429rem',
+                  'box-shadow': '0 0 0 0 transparent inset',
+                  '-webkit-transition': 'color .1s ease,border-color .1s ease',
+                  'transition': 'color .1s ease,border-color .1s ease'
                 },
                 color: {
                   header: '#ccc',

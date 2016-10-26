@@ -5,6 +5,7 @@
       template: require('./sidemenu.html'),
         ready(){
           this.getUserProfile();
+          if (this.$route.path.indexOf('/driver') > 0) this.selected = 'driver';
         },
         data(){
             return{
